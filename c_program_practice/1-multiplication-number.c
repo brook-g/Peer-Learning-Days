@@ -15,5 +15,5 @@ void main()
 	//logic
 	for (i = 1; i <= 10; i++)
 		printf("%dx%d=%d", input, i, input*i);
-
+	getch();
 }
