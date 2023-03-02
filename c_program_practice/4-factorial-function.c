@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-/* print factorial of a number  */
+/* a function that calculates factorial of a number */
 int Factorial(int input);
 
-#include <stdio.h>
 void main(void)
 {
 	/* variable declaration */
@@ -20,10 +19,17 @@ void main(void)
 	printf("Factorial of %d is %d\n", fn, Factorial(fn)); /* function call */
 	printf("Factorial of %d is %d\n", sn, Factorial(sn));
 }
+
+/**
+ * Factorial(int input) - prints factorial of a number
+ * @input - user input
+ * Return - factorial of a number
+ */
+
 int Factorial(int input) /* function declaration */
 {
 	int fact = 1, i; /* variable declaration */
-	for (i = i; i <= input; i++) /* function logic */
+	for (i = 1; i <= input; i++) /* function logic */
 		fact = fact * i;
 	return fact; /* return value of function */
 }
