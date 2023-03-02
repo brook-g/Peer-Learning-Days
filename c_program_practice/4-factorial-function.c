@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* a function that calculates factorial of a number */
-int Factorial(int input);
+int Factorial(int input); /* function definition */
 
 void main(void)
 {
@@ -26,7 +26,7 @@ void main(void)
  * Return - factorial of a number
  */
 
-int Factorial(int input) /* function declaration */
+int Factorial(int input) /* function definition */
 {
 	int fact = 1, i; /* variable declaration */
 	for (i = 1; i <= input; i++) /* function logic */
